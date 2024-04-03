@@ -1,9 +1,213 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T02:51:28.108Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" version="24.2.1" etag="eMKAiUsKdVHG6vs8PCII" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-03T09:29:14.660Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="y2rbXSEmb5qx9iYDdWoQ" version="24.2.1" type="github">
   <diagram name="第 1 页" id="aEWU-xlAHQ3nTaPv-m8G">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-1" target="6Eg16kFpBxruNNpmyIp2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-1" value="获取视频图像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="215" />
+              <mxPoint x="150" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="6Eg16kFpBxruNNpmyIp2-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="240" as="targetPoint" />
+            <mxPoint x="240" y="215" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-2" value="基于深度学习的&lt;div&gt;实例分割算法&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="130" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="390" />
+              <mxPoint x="241" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-9" value="提取车道线" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-14" target="6Eg16kFpBxruNNpmyIp2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-14" value="计算障碍物的&lt;div&gt;间隔帧IoU&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-15" target="6Eg16kFpBxruNNpmyIp2-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-15" value="提取障碍物" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-17" value="返回结果" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="191.25" y="420" width="97.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-21" target="6Eg16kFpBxruNNpmyIp2-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="79" as="sourcePoint" />
+            <mxPoint x="700" y="137.75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="615" y="109" />
+              <mxPoint x="700" y="109" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-21" value="获取视频图像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-22" target="6Eg16kFpBxruNNpmyIp2-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-22" value="基于深度学习的&lt;div&gt;人车检测算法&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="138.75" width="120" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-24" target="6Eg16kFpBxruNNpmyIp2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-24" value="提取目标外观特征" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-26" target="6Eg16kFpBxruNNpmyIp2-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-26" value="基于卡尔曼滤波器的跟踪算法" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="138.75" width="110" height="41.25" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-28" target="6Eg16kFpBxruNNpmyIp2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-28" value="预测目标运动特征" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="220" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-30" target="6Eg16kFpBxruNNpmyIp2-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-30" value="融合外观和运动特征生成代价矩阵" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="320" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-33" target="6Eg16kFpBxruNNpmyIp2-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-33" value="基于匈牙利算法的&lt;div&gt;代价矩阵二分匹配&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="400" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-37" target="6Eg16kFpBxruNNpmyIp2-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-37" value="利用匹配结果更新&lt;div&gt;卡尔曼滤波器&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="480" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-41" value="返回检测跟踪结果" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="561" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-45" target="6Eg16kFpBxruNNpmyIp2-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-45" value="传入图像和车道线&lt;div&gt;检测框&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-46" target="6Eg16kFpBxruNNpmyIp2-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-46" value="摄像头标定，计算两个消失点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="599" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-48" target="6Eg16kFpBxruNNpmyIp2-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-48" value="计算缩放系数" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="699" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-50" value="返回两个消失点和&lt;div&gt;缩放系数&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="799" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-52" target="6Eg16kFpBxruNNpmyIp2-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="581" />
+              <mxPoint x="80" y="581" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="562" as="sourcePoint" />
+            <mxPoint x="350" y="602" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="581" />
+              <mxPoint x="350" y="581" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-52" value="传入人车跟踪轨迹" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="520" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-53" target="6Eg16kFpBxruNNpmyIp2-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-53" value="获取每个目标当前帧与前一帧在图中的坐标" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="601" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-55" target="6Eg16kFpBxruNNpmyIp2-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-55" value="获取每个目标当前帧与前50帧在图中的坐标" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="601" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-57" target="6Eg16kFpBxruNNpmyIp2-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-57" value="图像坐标映射为世界坐标系计算两点实际距离" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="699" width="140" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-59" target="6Eg16kFpBxruNNpmyIp2-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-59" value="图像坐标映射为世界坐标系计算两点实际距离" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="9.5" y="699" width="140" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-61" target="6Eg16kFpBxruNNpmyIp2-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-61" value="计算目标瞬时速度" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="9.5" y="780" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-63" target="6Eg16kFpBxruNNpmyIp2-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-63" value="计算目标平均速度" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="780" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-65" value="返回速度估计值" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="870" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-72" target="6Eg16kFpBxruNNpmyIp2-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Eg16kFpBxruNNpmyIp2-72" target="6Eg16kFpBxruNNpmyIp2-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Eg16kFpBxruNNpmyIp2-72" value="两个消失点&lt;div&gt;缩放系数&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="650" width="90" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
